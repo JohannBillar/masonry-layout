@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+.header {
+   width: 100%;
+   height: 175px;
+   background: #43cea2;
+   background: -webkit-linear-gradient(to left, #43cea2 , #185a9d);
+   background: linear-gradient(to left, #43cea2 , #185a9d);       
+   color: lightcyan;
+   margin: 20px auto;
+   text-align: center;
+   padding: 25px 25px
+ }
+.header svg {
+  width: 50%;
+}
+.container {
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+}
+.pins > div {
+  position: absolute;
+  visibility: hidden;
+  margin-left: 3%;
+}
+.pins img {
+  width: 200px;
+}
